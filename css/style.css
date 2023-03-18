@@ -142,6 +142,7 @@ footer {
     margin-top: auto;
     color: #ffffff;
     padding: 10px;
+    margin: 0;
 }
 
 
@@ -194,7 +195,8 @@ footer {
     .btn-desencriptar {
         width: 100%;
     }
-    footer p{
+
+    footer p {
         font-size: 14px;
     }
 }
@@ -246,7 +248,8 @@ footer {
     .btn-desencriptar {
         width: 100%;
     }
-    footer p{
+
+    footer p {
         font-size: 14px;
     }
 }
@@ -299,15 +302,16 @@ footer {
     .btn-desencriptar {
         width: 100%;
     }
-    footer p{
+
+    footer p {
         font-size: 16px;
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1200px) {
-    footer{
+@media (min-width: 1024px) {
+    footer {
         position: absolute;
-        width: 100%;
         top: 100%;
+        width: 100%;
     }
 }
