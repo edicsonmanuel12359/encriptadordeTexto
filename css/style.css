@@ -303,3 +303,11 @@ footer {
         font-size: 16px;
     }
 }
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    footer{
+        position: absolute;
+        width: 100%;
+        top: 100%;
+    }
+}
